@@ -1,0 +1,48 @@
+
+
+body, html {
+    height: 100%;
+}
+.main{   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("screeny/hero1.png");}
+.nie{  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("screeny/2021-01-07_16.36.28.png");}
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+
+  display: block;
+  /* Set a specific height */
+  height: 50%;
+  margin-top: 20px;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Arial Black", "Arial Bold"
+
+}
+#prz{
+
+    background-image: url('screeny/grzyb.svg');
+    background-size: cover;
+    border: none;
+    color: white;
+    padding: 20px;
+    right: 0.5%;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+  }
