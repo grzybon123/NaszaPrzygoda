@@ -1,13 +1,12 @@
 
-@charset{
-  margin-top: 0px ;
-  padding-top: 0px ;
+*{
+  margin:0;
+  margin-top:0;
 }
 body, html {
     height: 100%;
-
 }
-.main{   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("screeny/hero1.png");}
+.main{   background-image: url("zd/hero1.png");}
 .nie{  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("screeny/2021-01-07_16.36.28.png");}
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -21,6 +20,7 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  
 }
 
 /* Place text in the middle of the image */
@@ -31,7 +31,7 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-family: fantasy
+
 
 }
 
@@ -65,6 +65,73 @@ prz{
   background-color: #008066;
   overflow: hidden;
   height: 50px;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  position: fixed;
+  z-index: 999999;
+}
+.but{
+  text-align: center;
+  display: inline-block;
+  background-image: url('zd/disco.png');
+}
+.buttone {
+  display: inline;
+  background-color:#000000; /* Green */
+  border: none;
+  color: white;
+  padding: 15px;
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  float: center;
 
 
-  }
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #77edb4;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+model-viewer{
+  position: relative;
+  height: 25%;
+  width: 35%;
+}
+.opis{
+  position: absolute;
+  left: 40% ;
+  color: rgba(48, 7, 124, 0.5); 
+  font-family: Verdana, "Geneva", Tahoma, sans-serif
+}
+.pis{
+  margin-top: 2%;
+  position: absolute;
+  left: 40% ;
+}
+.kil{
+  position: relative;
+  width: 47%;
+  height: auto;
+  padding: 1%;
+}
+.kla{
+  position: relative;
+  float: right;
+  width: 47%;
+  height: auto;
+  padding: 1%;
+
+}
